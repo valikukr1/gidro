@@ -1,0 +1,878 @@
+﻿/* -------------------------------------------------------------
+  © IceTheme 2013
+---------------------------------------------------------------- */
+
+
+/* Bootstrap Reset
+---------------------------------------------------------------- */
+body {
+  background:#fffff;}
+  
+p.ice-headline,  
+h1, h2, h3, h4, h5, h6 {
+  font-family:"Droid Sans", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color:#555}  
+
+a:link { color:#0066A2}
+a:visited { color:#571586; text-decoration:underline;}
+
+
+body .btn { color:#333}
+  
+.btn-primary,
+.btn-inverse { color:#fff!important;}
+
+  
+p {
+  margin-bottom:18px}
+
+hr {
+  clear: both;
+  border:none;
+  border-top:1px dashed #ccc;}
+
+body .button {
+  background-color:#adb28f;
+  background-image:url(../images/readmore.png);
+  background-repeat:no-repeat;
+  background-position: 11px 48%;
+  border:none;
+  color:#fff;
+  padding: 5px 15px 5px 28px;
+  border-radius:0;
+  box-shadow:none;
+  text-shadow:none;
+  -webkit-transition:all .2s ease-out;
+  -moz-transition:all .2s ease-out;
+  -o-transition:all .2s ease-out; 
+  transition:all .2s ease-out;}
+  
+  body .button:hover {
+    text-decoration:none;
+    color:#fff;
+    background-image:url(../images/readmore.png);
+    background-repeat:no-repeat;
+    background-position: 14px 48%;
+    background-color:#929678;}
+    
+    body .button.othercolor {
+      background:!important#009BFF;}
+      
+      body .button.othercolor:hover {
+        background:!important#34AFFF;}
+        
+      body .button.apply {
+          padding:10px 25px;
+          background-color:#90966e;
+          background-image:none;
+          font-size:18px;
+          font-family:Arial, Helvetica, sans-serif;}
+        
+        body .button.apply:hover { 
+        background-image:none;
+        background-color:#787D5B;}
+
+    
+
+.tooltip {
+  font-size:15px;}
+  
+  
+
+/* typography 
+------------------------------------------------------------- */
+
+p.ice-headline {
+  font-size: 3em;
+  text-align: center;}
+
+p.ice-subheadline {
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: -3px;
+  margin-bottom: 18px;
+  color: #888;}  
+
+span.notice-typo {
+  color: #888;}
+
+ul.ice-check li, 
+ul.ice-arrow li, 
+ul.ice-cross li,
+ul.ice-light li, 
+ul.ice-star li, 
+ul.ice-note li,
+ul.ice-check2 li,
+ul.ice-help li,
+ul.ice-info li {
+  list-style-type:none;
+  background-repeat: no-repeat; 
+  background-position: center left;
+  padding: 4px 0 3px 28px}
+  
+  ul.ice-check li {
+    background-image:url(../images/typo_check.png);}
+  ul.ice-arrow li { 
+    background-image:url(../images/typo_arrow.png);}
+  ul.ice-cross li { 
+    background-image:url(../images/typo_cross.png);}
+  ul.ice-light li { 
+    background-image:url(../images/typo_light.png);}
+  ul.ice-star li { 
+    background-image:url(../images/typo_star.png);}
+  ul.ice-note li { 
+    background-image:url(../images/typo_note.png);}  
+  ul.ice-check2 li { 
+    background-image:url(../images/typo_check2.png);}
+  ul.ice-help li { 
+    background-image:url(../images/typo_help.png);}
+  ul.ice-info li { 
+    background-image:url(../images/typo_info.png);}
+
+
+
+ blockquote {
+  border:none;
+  text-align:left;
+  position:relative;
+  margin: 40px 85px;
+  padding:0;
+  font-size: 20px;
+  line-height: 34px;
+  font-family:"Coming Soon",Courier, monospace;}
+  
+   blockquote p {
+     margin-bottom: 0;
+    font-size:inherit;
+    font-weight: inherit;
+    line-height: inherit;}
+  
+
+  
+  blockquote:before {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    color:#ccc;
+    content:open-quote;
+    font-size: 100px;
+    position: absolute;
+    top: 25px;
+    left: -70px;}
+            
+  blockquote:after {
+    font-family:Georgia, "Times New Roman", Times, serif;
+    color:#ccc;
+    content:close-quote;
+    font-size: 100px;
+    position: absolute;
+    bottom: -35px;
+    right: -70px;}  
+
+
+  
+.highlight {
+  font-style: italic;
+  color: #444;
+  background: #FFC;
+  padding: 0 .15em!important;
+  font-weight: normal!important;}
+
+.dropcap {
+  color: #555;
+  display: block;
+  float: left;
+  font: 6em/75% Georgia,"Times New Roman",Times,serif;
+  padding: 5px 12px 0 0;}
+
+pre {
+  border-radius:0;
+  padding-left: 32px;
+  border: 1px solid #9A9A9A;
+  border-left: 4px solid #33353A;
+  background: #FFFEF4;}
+
+.IceBlockTextLeft {
+  float: left;
+  text-align: left;
+  display: block;
+  font-size: 1.25em;
+  font-style: italic;
+  line-height: 1.7em;
+  padding: 30px;
+  width: 38%;}
+
+.IceBlockTextRight {
+  float: right;
+  text-align: right;
+  display: block;
+  font-size: 1.25em;
+  font-style: italic;
+  line-height: 1.7em;
+  padding: 30px;
+  width: 38%;}
+  
+  
+.ice-block1 {
+  padding: 10px;
+  border: 1px dashed #999;}
+  
+.ice-block2 {
+  padding: 10px;
+  background: #fff;
+  border: 1px dotted #999;}  
+
+.ice-block3 {
+  padding: 10px;
+  background: #FFFEF4;
+  border: 1px solid #EAE8CC;}  
+    
+.ice-block4 {
+  padding: 10px;
+  background: #222;
+  color: #ccc;
+  border: 1px solid #222;}
+  
+.ice-block5 {
+  padding: 10px;
+  background: #eee;
+  border: 1px solid #ccc;}  
+
+.ice-block6 {
+  padding: 10px;
+  background: #CF8080;
+  color: #fff;
+  border: 1px solid #CF8080;}
+
+
+div.success, p.success, 
+div.notice, 
+p.notice, 
+div.error, p.error {
+  padding: .6em 1em 0.6em 3.4em;
+  border: 1px solid #fff;
+  margin-bottom: 2em;}
+  
+  div.notice, p.notice {
+    color: #514721;
+    background: #FFF6BF url(../images/typo_note.png) no-repeat 10px center;
+    border: 1px solid #FFDE24;}
+
+  div.success, p.success {
+    color: #264409;
+    background: #E6EFC2 url(../images/typo_success.png) no-repeat 10px center;
+    border: 1px solid #CEE086;}
+    
+  div.error, p.error {
+    color: #8A1F11;
+    background: #FBE3E4 url(../images/typo_error.png) no-repeat 10px center;
+    border: 1px solid #F5B7B8;}
+
+
+/* Top Bar 
+------------------------------------------------------------- */
+#topbar {
+  background-color:#3E930F;
+  color:#F7FE2E;
+  font-size:14px}
+  
+  
+  /* Top Menu */
+  #topmenu {
+    float:right;
+    margin:12px 0 0 25px;}
+    
+    #topmenu .menu {}
+    
+      #topmenu .menu li {
+        float:left;
+        margin:0 10px;}
+      
+        #topmenu .menu li a {
+          color:#FFF;}
+          
+          #topmenu .menu li a:focus,
+          #topmenu .menu li a:hover {
+            background:none;
+            text-decoration:underline;
+            color:#FFF;}
+    
+    
+  /* Social Icons */
+  #social_icons {
+    float:right;
+    margin:8px 0 0 22px;
+    text-align:center;}
+  
+    #social_icons h3{
+      font-family:"journal", Arial, Helvetica, sans-serif;
+      font-size:30px;
+      color:#fff;}
+
+    #social_icons ul {
+      padding:0;
+      margin:0;}
+      
+      #social_icons ul li {
+        transition-property: opacity; 
+        transition-duration: 500ms;
+        list-style-type:none;
+        display:inline-block;
+        padding:0;
+        margin:0}
+        
+        #social_icons ul li a {
+          background-image:url(../images/social_icons.png);
+          background-repeat:no-repeat;
+          background-position:center;
+          width:26px;
+          height:26px;
+          margin-right:4px;
+          opacity:1;
+          display: block!important;
+          border-bottom:none;
+          -webkit-transition:all .25s ease-out;
+          -moz-transition:all .25s ease-out;
+          -o-transition:all .25s ease-out; 
+          transition:all .25s ease-out; }
+          
+          #social_icons ul li a:hover {
+            -webkit-transform:translate(0,1.5px);
+            -moz-transform:translate(0,1.5px);
+            -o-transform:translate(0,1.5px);
+            transform:translate(0,1.5px);}
+          
+            
+            #social_icons ul li a span { display:none; }  
+            
+              #social_icons ul li.social_facebook a {
+              background-position:0 0; }
+              
+              #social_icons ul li.social_twitter a {
+              background-position:-26px 0; }
+              
+              #social_icons ul li.social_rss_feed a {
+              background-position:-52px 0; }
+              
+              
+          #social_icons .tooltip.in { opacity:1}  
+          
+          
+            
+    
+    
+/* Statistics Module */
+#statistics {
+  float:left;
+  margin:10px 0;}
+  
+  #statistics p {
+    margin:0;}
+
+
+/* Header
+------------------------------------------------------------- */
+#header {
+  height:195px;
+  background:url(../images/header_effect.jpg);
+  background-repeat:repeat-x;
+  background-color:#61B21F;
+  margin-bottom:60px/* this value has a parameter as well to make margin 0 when slideshow is enabled*/ }  
+  
+  #logo {
+    float:left;
+    margin-top: 40px;
+    margin-left: -40px;}
+    
+    #logo p {
+      margin:0}
+    
+    /* IceMegamenu */
+    #header .icemegamenu {
+      margin-top: 24px;
+      margin-right: -30px;
+      float:right;
+      position:relative;}
+  
+
+/* Content
+------------------------------------------------------------- */
+#content {
+  clear:both;
+  margin-bottom:60px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;}
+    
+  #content #middlecol { 
+    float:left;
+    background-color:#fff;
+    position:relative;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;}
+    
+    section#content #middlecol .inside {
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+    padding:15px;
+    min-height: 400px;}
+  
+  
+
+  /* Sidebar */
+  #sidebar {
+    float:right;
+    background-color:#FFF;
+    position:relative;
+    min-height: 500px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;}
+  
+    
+    /* when is seletec on the left */
+    #sidebar.sidebar_left { float:left;}      
+        
+    /* Equal Columns */
+    #content #sidebar:after,
+    #content #middlecol:after {
+      background-color:#FFF;
+      content: "";
+      display: block;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      z-index: -1;
+    -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;}
+    
+    #content #sidebar:after {
+      right:320px;
+      width: 620px;
+    -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;}
+    
+    #content #middlecol:after {
+      right: -320px;
+      width: 300px;
+    -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;}
+
+
+
+    
+/* Promo 
+------------------------------------------------------------- */
+#promo {
+  margin:0 0 60px;}
+  
+  
+
+#it-sn{
+  position: absolute;
+  top: 0px;
+  left: -5500px;
+  }
+/* Banner */
+#banner {
+  text-align:center;
+  margin:10px 0 60px;}
+  
+  #banner .banneritem {}
+    
+    
+    #banner .banneritem a {
+      display: block;
+      -webkit-transition:all .2s ease-out;
+      -moz-transition:all .2s ease-out;
+      -o-transition:all .2s ease-out; 
+      transition:all .2s ease-out;} 
+      
+      #banner .banneritem a:hover {
+        margin-top: -2px;
+        padding-bottom:2px;}
+        
+        #banner .banneritem a img { max-width:100%;}
+        
+        
+        
+          
+        
+/* Meesage - on homepage */
+#message {
+  position:relative;
+  background:#A3A982;
+  text-align:center;
+  overflow:hidden;
+  color:#FFF;}
+  
+  #message .container {
+    position:relative;}
+  
+  /* Dotted Border */
+  #message:before, 
+  #message:after {
+    display:block;
+    width:100%;
+    height:1px;
+    position:absolute;
+    right: 50%;
+    margin-left: -50%;
+    color:#CCD0B6;
+    letter-spacing: 6px;
+    content:"______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________"
+    /* dont worry its not a mistake, we use this to make the custom borders*/;}
+    
+    #message:before{
+      top:-5px;}
+      
+    #message:after{
+      bottom:28px;}
+      
+      #message h2 {
+        font-size:30px;
+        color:#FFF;
+        font-style:italic;
+        display:inline-block;
+        margin:5px 15px 7px;}
+      
+      #message p {
+        width:67%;
+        font-size: 16px;
+        line-height: 26px;
+        margin-left:30px;}
+        
+        #message .button  {
+          display:inline-block;
+          margin:0 15px;
+          text-shadow:1px 1px 1px rgba(0,0,0,.2);
+          text-align:center;
+          line-height: 22px;}  
+
+
+
+
+/* Footer
+------------------------------------------------------------- */
+#footer {
+  position:relative;
+  padding:0}
+
+  
+/* Copyright */
+#copyright_area {
+  position:relative;
+  font-size: 13px;
+  padding:25px 0 24px;
+  text-align:center;
+  font-style:italic;
+  border-top:1px dashed #b8bd9c;}
+  
+  /* Copyright Text */
+  #copyright_area p#copyright {
+    float:center;
+    color:#777;
+    padding: 0 5px 0 0;}
+    
+  
+  /* Copyright Nav */  
+  #copyrightmenu {
+    float:right}
+    
+    #copyrightmenu ul {
+      list-style-type:none;
+      margin:0;
+      display:inline;
+      padding: 7px 0 0;}
+      
+      #copyrightmenu ul li {
+        display:inline;}
+        
+        #copyrightmenu ul li a {
+          color:#777;
+          display:inline;
+          padding-left:20px;}
+          #copyrightmenu ul li a:hover {
+            background:none;
+            color:#000;
+            text-decoration:none}
+    
+
+
+/* Go to Top link */
+.scrollup {
+  width: 45px;
+  height: 45px;
+  text-indent: -9999px;
+  opacity:0.25;
+  border-radius:50%;
+  position: fixed;
+  bottom:25px;
+  z-index:9;
+  right:20px;
+  display: none;
+  background:url(../images/icon_top.png) no-repeat center center;
+  -webkit-transition:all .2s ease-out;
+  -moz-transition:all .2s ease-out;
+  -o-transition:all .2s ease-out; 
+  transition:all .2s ease-out;}
+  
+    .scrollup:hover {
+      opacity:.75;}
+    
+    
+p#icelogo { margin-bottom:0}
+        
+  p#icelogo a {
+    width:92px;
+    display:block;
+    margin:-10px 0 0;
+    height:45px;
+    opacity:.4;
+    -webkit-transition:all .2s ease-out;
+    -moz-transition:all .2s ease-out;
+    -o-transition:all .2s ease-out; 
+    transition:all .2s ease-out;}
+    
+    p#icelogo a:hover {
+      opacity:1}
+      
+
+/* Menus
+---------------------------------------------------------------- */
+
+  /* Sidebar menu */
+   #sidebar .sidebar_module ul.menu {
+    list-style: none;
+    padding:0px;
+    margin:0}
+    
+    #sidebar .sidebar_module ul.menu li {
+      line-height:34px;}
+      
+      #sidebar .sidebar_module ul.menu li.divider {
+        display:none;} 
+      
+        #sidebar .sidebar_module ul.menu li a {
+          color:#000000;
+          padding-left:10px;
+          -webkit-transition:all .2s ease-out;
+          -moz-transition:all .2s ease-out;
+          -o-transition:all .2s ease-out; 
+          transition:all .2s ease-out; 
+          border-bottom:1px dotted #ccc;}
+              
+            #sidebar .sidebar_module ul.menu li a:hover {
+              background-color:#eee;
+              padding-left:10px;
+              text-decoration:none;}
+  
+            #nav nav-tabs nav-stacked .sidebar_module ul.menu li.active a {
+              padding-left:10px;
+              }            
+              
+
+/* Offline Page and Error Page 
+---------------------------------------------------------------- */    
+
+body.offline_page,
+body.error_page {}
+
+  body.offline_page #header,
+  body.error_page #header {  
+    background-color:#61B21F;
+    background:url(../images/header_effect.jpg);
+    height:120px;
+    padding-top:22px;}
+
+    body.offline_page #logo,
+    body.error_page #logo {
+      top:-36px;
+      float:none;
+      margin:0 auto;
+      text-align:center;}
+      
+      body.offline_page #logo p,
+      body.error_page  #logo p { }
+      
+      body.offline_page #logo img,
+      body.error_page #logo img { }
+      
+      /* Demo Only */
+       body.error_page #logo p a,
+       body.offline_page #logo p a {
+        width:270px;
+        height:84px;
+        display:block;
+        margin:auto;
+        background-image:url(../images/styles/style1/logo.png);}
+    
+
+  body.offline_page #content,
+  body.error_page #content  {
+    width:auto;
+    padding:25px;
+    background-color:#FFF;
+    max-width: 510px;
+    margin:45px auto 0;
+    float:none}
+    
+    
+    body.offline_page .alert {
+      margin-bottom:50px;
+      font-size: 18px;
+      text-align:center;
+      line-height: 30px;}
+
+    
+    body.error_page h1 {
+      font-size: 28px;
+      margin: 0 0 15px;
+      border: none;}
+      
+    
+/* Ice Style Switcher
+---------------------------------------------------------------- */  
+ul#ice-switcher {
+  position:fixed;
+  top:200px;
+  background:#fff;
+  border:1px solid #dcdcdc;
+  border-left:0;
+  border-radius: 0;
+  right:0px;
+  list-style-type:none;
+  padding:5px 5px 0;
+  opacity:.3;
+  margin:0;
+  z-index:99999;
+  border-radius:6px 0 0 6px;
+  -webkit-transition:all .25s ease-out;
+  -moz-transition:all .25s ease-out;
+  -o-transition:all .25s ease-out; 
+  transition:all .25s ease-out;}
+  
+  ul#ice-switcher:hover {
+    opacity:1;
+    padding-right:15px;}
+  
+  ul#ice-switcher li {
+    padding:0;
+    margin:0}
+    
+    ul#ice-switcher li a {
+      display:block;
+      width:10px;
+      height:10px;
+      border-radius:10px;
+      margin-bottom:7px;
+      background:#222; }
+      
+      ul#ice-switcher li a span { display:none }
+    
+    
+    ul#ice-switcher li.style1 a { background:#62B220 }
+    ul#ice-switcher li.style2 a { background:#333333 }
+    ul#ice-switcher li.style3 a { background:#1E75A8 }
+    ul#ice-switcher li.style4 a { background:#AF2011 }
+    ul#ice-switcher li.style5 a { background:#69720D }
+    ul#ice-switcher li.style6 a { background:#B22447 }
+    
+    
+    ul#ice-switcher .tooltip { font-size:14px;}
+
+      
+  #overlay {
+    display: none;
+    position: fixed;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:100000;
+    background:#000 url(../images/style_loading.gif) no-repeat center;}    
+
+
+
+/* Template Styles custom code */
+div.ice-template-style {
+  margin:0;
+  padding:0;}
+
+  div.ice-template-style p {
+    float:left;
+    width:175px;
+    margin:0 0 15px;
+    text-align:center;
+    position:relative;
+    padding:0;}
+
+
+    div.ice-template-style p:nth-child(5),
+    div.ice-template-style p:nth-child(6) {
+      margin-bottom:8px}
+
+    
+    div.ice-template-style p span {
+      display:block;
+      color:#fff;
+      position:absolute;
+      top:40px;
+      left:55px;
+      background:#000000;
+      background:rgba(0,0,0,.75);
+      border:1px solid #fff;
+      box-shadow:0 0 12px rgba(0,0,0,.5);
+      padding:3px 10px;
+      opacity:0;
+      font-size:1.4em;
+      -webkit-transition:all .3s ease-out;
+      -moz-transition:all .3s ease-out;
+      -o-transition:all .3s ease-out; 
+      transition:all .3s ease-out;}
+
+      div.ice-template-style p:hover span {
+        opacity:1}
+  
+  
+      div.ice-template-style img {
+        float:none!important;
+        margin:0!important}  
+    
+      #columns-container div.ice-template-style li img {
+        width:218px}        
+
+
+/* IceShortCodes overwrite */
+body .fb_iframe_widget {
+  overflow:hidden;
+  display:block}
+  
+  
+  body .btn-info,
+  body .btn-success,
+  body .btn-warning,
+  body .btn-danger,
+  body .btn-inverse  { color:#FFF;}
+
+  body.iceshortcode .box.info, 
+  body.iceshortcode .box.alert, 
+  body.iceshortcode .box.download, 
+  body.iceshortcode .box.note {
+    width:299px;
+    margin-right:20px;
+    float:left;}
+
+  body.iceshortcode code {
+    width:auto;
+    display:block;
+    padding:10px 8px;
+    overflow-y:hidden;
+    overflow-x:scroll;
+    }
+    
+    body.iceshortcode a.carousel-control { color:#FFF}

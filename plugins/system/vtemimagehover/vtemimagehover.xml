@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="system" method="upgrade">
+	<name>System - VTEM ImageHover</name>
+	<author>Nguyen Van Tuyen</author>
+	<creationDate>20/12/2012</creationDate>
+	<copyright>Copyright (C) 2010 VTEM. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>tuyen0110@gmail.com</authorEmail>
+	<authorUrl>www.vtem.net</authorUrl>
+	<version>1.0</version>
+	<description><![CDATA[
+		<style type="text/css">
+			span.readonly { padding: 10px; font-family: Arial; font-size:13px !important; font-weight: normal !important; text-align: justify; color: #4d4d4d; line-height: 24px; }
+			span.readonly h1 { clear:both; font-family: Georgia, sans-serif; font-size:38px; margin:5px 5px 23px; padding:0px 0px 24px 0px; color:#333; border-bottom: 1px solid #eee; font-weight: normal; }
+		</style>		
+		<span class="readonly"><h1>VTEM ImageHover</h1><p>It effect on images when you take mouse over the images, it really good style effect of jquery mouse over. It makes for a pretty slick effect which could be used on thumbnails. I thought I’d share this and maybe some of you can find it useful.</p>
+		<div><b>Basic:</b><br>
+		{vtemimagehover images=[images/01.jpg; images/02.jpg]} 
+		<br/><b>Add your links:</b><br/>
+		{vtemimagehover images=[images/01.jpg; images/02.jpg] links=[http://vtem.net; http://prestaddon.com]} 
+		<br/><b>Use with LightBox:</b><br/>
+		{vtemimagehover images=[images/thumb1.jpg; images/thumb2.jpg] links=[images/big1.jpg; images/big2.jpg] captions=[Title1; Title2] lightBox=[1]} 
+		</div>
+		<br>
+		<p>Find out more about our modules: <a target="_blank" href="http://vtem.net/extensions.html">http://vtem.net/extensions.html</a></p><p>If you feel comfortable with this extension, <a target="_blank" href="http://extensions.joomla.org/extensions/photos-a-images/images/articles-images/23142">Please vote on the JED for the extension!</a></p></span>
+		]]></description>
+	<files>
+		<filename plugin="vtemimagehover">vtemimagehover.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<media destination="plg_vtemimagehover">
+	    <folder>css</folder>
+	    <folder>images</folder>
+	    <folder>js</folder>
+		<filename>index.html</filename>
+	</media>
+	
+	<config>
+		<fields name="params">
+		  <fieldset name="basic">
+			<field name="startEffect" type="list" default="transparent" label="Start Effect" description="Please select an effect for your image">
+				<option value="normal">Normal</option>
+				<option value="transparent">Transparent</option>
+				<option value="overlay">Overlay</option>
+				<option value="grayscale">Grayscale</option>
+			</field>
+			<field name="hoverEffect" type="list" default="normal" label="Hover Effect" description="Please select an effect when you hover on image">
+				<option value="normal">Normal</option>
+				<option value="popout">Popout</option>
+				<option value="sliceDown">sliceDown</option>
+				<option value="sliceDownLeft">sliceDownLeft</option>
+				<option value="sliceUp">sliceUp</option>
+				<option value="sliceUpLeft">sliceUpLeft</option>
+				<option value="sliceUpRandom">sliceUpRandom</option>
+				<option value="sliceUpDown">sliceUpDown</option>
+				<option value="sliceUpDownLeft">sliceUpDownLeft</option>
+				<option value="fold">fold</option>
+				<option value="foldLeft">foldLeft</option>
+				<option value="boxRandom">boxRandom</option>
+				<option value="boxRain">boxRain</option>
+				<option value="boxRainReverse">boxRainReverse</option>
+				<option value="boxRainGrow">boxRainGrow</option>
+				<option value="boxRainGrowReverse">boxRainGrowReverse</option>
+			</field>
+			<field name="animSpeed" type="text" label="Duration" default="240" description="Duration of transitional effect when hover on image."/>
+			<field name="imageOpacity" type="text" label="Opacity" default="0.8" description="Opacity of image. Select values from 0.1 to 1"/>
+			<field name="spacer1" type="spacer"  hr="true"/>
+			<field name="script" type="radio" default="0" label="jQuery library" description="Option to load jquery script into your site">
+				<option value="0">Disable</option>
+				<option value="1">Enable</option>
+			</field>  
+		  </fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,135 @@
+/* -------------------------------------------------------------
+	© IceTheme 2013
+---------------------------------------------------------------- */
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+		
+
+	#content #sidebar:after {
+		right:400px;
+		width: 770px;}
+			
+	#content #middlecol:after {
+		right: -400px;
+		width: 370px;}
+		
+	#footer:before {
+		width:370px;}	
+	
+
+}
+
+
+/* Smaller than Large Desktop */
+@media (max-width: 1200px) {
+	
+	#banner { margin-bottom:20px;}
+	#banner .banner { margin-bottom:20px; float:none;}
+
+
+}
+
+
+/* landscape tablet and desktop */
+@media (max-width: 979px) {
+	
+	
+	#header { background-image:none!important; height:auto}
+
+	#logo { margin:15px 0 0; float:none; text-align:center;}
+	
+	/* Equal Columns */
+	#content #sidebar:after {
+		right:248px;
+		width: 478px;}
+	
+	#content #middlecol:after {
+		right: -248px;
+		width: 228px;}
+	
+	#topbar { margin-bottom:0}
+
+	#content #middlecol { margin-bottom:30px;}	
+
+
+	#ip_search > .container { background-image:none!important;}
+	
+		#ip_search > .container .ip_qsmod_holder { width:auto;}
+		#ip_search > .container .control-group { margin-bottom:0}
+		#ip_search > .container .ip_qsmod_holder .controls { display: block;}
+	
+	
+	#promo,
+	#bottom { margin-bottom:15px;}
+	
+	#promo .moduletable,
+	#bottom .moduletable { margin-bottom:30px;}	
+	
+	
+	body .ip-featuredcompanies-thumb-holder img.thumbnail { display:none}
+	
+}
+
+
+	
+	
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	
+	#topbar,
+	#header,
+	#message { margin-left:-20px; margin-right:-20px; padding-left:20px; padding-right:20px;}
+	
+	#topmenu { clear: right; padding-bottom: 14px; margin-top: 6px; }
+	#language { margin-top:5px;}
+	
+	/* Equal Columns */
+	#content #sidebar:after { display:none}
+	#content #middlecol:after { display:none}
+
+
+	.carousel-caption { position: static; max-width: 100%!important }
+		#iceslideshow .carousel-control { display:none}
+	
+	
+	#copyrightmenu { float:none;}	
+	#copyright { float:none!important; padding:10px 0 0!important}
+	p#icelogo a { display:inline-block; margin-top: 7px;}
+
+}
+
+
+
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	
+	/* Equal Columns */
+	#content #sidebar:after { display:none}
+	#content #middlecol:after { display:none}
+	
+	#language { clear: right; margin: -5px 0 15px;}
+
+	.scrollup {
+		-webkit-transform:scale(.75);
+		-moz-transform: scale(.75);
+		-o-transform: scale(.75);
+		-ms-transform: scale(.75);
+		transform: scale(.75);
+		bottom:-12px;
+		left:45%;
+		display: block!important;
+		position:relative!important;}
+	
+	ul#ice-switcher { display:none}
+	
+	body.offline_page .inputbox { width:auto}
+	
+	#search form .inputbox { width:auto}
+
+
+	
+}

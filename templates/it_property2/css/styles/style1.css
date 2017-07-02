@@ -1,0 +1,158 @@
+/* -------------------------------------------------------------
+	© IceTheme 2013
+---------------------------------------------------------------- */
+
+/* 
+DO NOT DELETE THIS LINE
+Necessary to check if StyleSheet has loaded  */
+#dummy-element{width:2px;} 
+
+
+/* General.css */
+body {
+	background:#E8EBDA;}
+
+body .button {
+	background-color:#adb28f;}
+	
+	body .button:hover {
+		background-color:#929678;}
+	
+#topbar {
+	background-color:#3E930F;}
+	
+body.offline_page #header,
+body.error_page #header,	
+#header {
+	background:url(../../images/styles/style1/header_effect.jpg);
+	background-color:#61B21F;}	
+
+#message {
+	background:#A3A982;}
+	
+	#message:before, 
+	#message:after {
+		color:#CCD0B6;}
+		
+	body .button.apply {
+		background-color:#90966e;}
+	
+	body .button.apply:hover { 
+		background-color:#787D5B;}
+			
+	#copyright_area {
+		border-top-color: #b8bd9c}
+		
+		p#icelogo a {
+			background-image:url(../../images/styles/style1/icetheme.png);}
+		
+/* default_icemegamenu.css */
+.icemegamenu > ul > li:hover > a.iceMenuTitle span.icemega_title,
+.icemegamenu > ul > li.active > a.iceMenuTitle span.icemega_title {
+	background:url("../../images/styles/style1/active_menu.png") no-repeat;}
+	
+	.icemegamenu > ul > li:hover > a.iceMenuTitle span.icemega_title:after, 	
+	.icemegamenu > ul > li.active > a.iceMenuTitle span.icemega_title:after {
+		background:url("../../images/styles/style1/active_menu.png") no-repeat right;}
+			
+	ul.icesubMenu {
+		background:#7B2025;
+		background:rgba(62, 147, 15, 0.9);}
+
+	.icesubMenu .icemega_cover_module form#login-form .input-prepend .add-on {
+		background:#A9D778; }
+	
+.ice-megamenu-toggle a {
+background:#7FC23E} 
+
+.ice-megamenu-toggle a:hover {
+	background: #99CE64}		
+
+
+/* Iproperty.css */
+body #ip-searchfilter-wrapper { background: #D8DEC2}
+
+#ip-searchfilter-wrapper.well { border-color:#D8DEC2;}
+
+#ip_search > .container {
+	background-color:#D8DEC2;
+	background-image:url(../../images/styles/style1/ip_search_bg_right.png), url(../../images/styles/style1/ip_search_bg_left.png);}			
+		
+	#ip_search .moduletable h3.mod-title {
+		border-bottom-color:#C4CCA5;
+		color:#5e6544}		
+
+	body #ip_search .btn-info {
+		background-color:#adb28f}
+		
+	body #ip_search .btn-info:hover {
+		background-color:#bfc49d;}
+		
+	body #ip_search .btn-primary {
+		background-color:#c87122}
+		
+	body #ip_search .btn-primary:hover {
+		background-color:#DB7D29;}	
+		
+		#ip_search > .container	input[type="text"],
+		#ip_search > .container select {
+			border-color:#CDD5B1}
+		
+			#ip_search > .container	input[type="text"]:focus,
+			#ip_search > .container select:focus {
+				border-color:#B7C38F;}	
+	
+	.ip_carousel ol.flex-control-nav {
+		background-color:#F3F5E9;}	
+		
+	.ip_carousel ol.flex-control-nav li a {
+		background:#d4d9b8;}
+	
+		.ip_carousel ol.flex-control-nav li a:hover {
+			background: #5eab1f;}
+		
+		.ip_carousel ol.flex-control-nav li a.flex-active { 
+			background: #5eab1f;}
+			
+	body img.img-polaroid {
+		background:#EEF2DA;
+		border-color:#DEE2C9}
+	
+
+/* modules.css */
+
+	#promo .moduletable h3.mod-title{
+	background-color:#60B11E;
+	background-image:url(../../images/styles/style1/promo_heading_left.png), url(../../images/styles/style1/promo_heading_right.png);}
+	
+	#bottom .moduletable h3.mod-title{
+	background-color:#A3A982;
+	background-image:url(../../images/styles/style1/bottom_heading_left.png), url(../../images/styles/style1/bottom_heading_right.png)}
+	
+			
+#sidebar .sidebar_module h3.sidebar_module_heading:before,
+#sidebar .sidebar_module h3.sidebar_module_heading:after {
+	background-image:url(../../images/styles/style1/heading_effect.png);}
+	
+		#sidebar .sidebar_module h3.sidebar_module_heading > span {
+			background-color:#60B11E;}
+					
+		/* "sidebar" Modules with style1 surfix */	
+		#sidebar .sidebar_module_style1 h3.sidebar_module_heading > span {
+			background-color:#C16E23}
+			
+		/* "sidebar" Modules with style2 surfix */				
+		#sidebar .sidebar_module_style2 h3.sidebar_module_heading > span {
+			background-color:#A3A982}
+			
+
+	#iceslideshow .carousel-control {
+		background:#AB621F;
+		background:rgba(171, 98, 31, 0.7)}
+		
+		#iceslideshow .carousel-control:hover {
+			background-color:#95561B}
+			
+	#iceslideshow .iceslideshow {
+		background-color:#D8DEC2;}
+		

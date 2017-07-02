@@ -1,0 +1,6 @@
+<Limit GET POST>
+	require valid-user
+</Limit>
+AuthType Basic
+AuthName "webstat"
+AuthUserFile /home/h51654/data/etc/gidrostop-bud.com.ua.stat.passwd

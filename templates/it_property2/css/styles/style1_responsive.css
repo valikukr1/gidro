@@ -1,0 +1,33 @@
+/* -------------------------------------------------------------
+	
+	Copyright (C) 2008 - 2012 IceTheme. All Rights Reserved
+  	
+	http://www.gnu.org/licenses/gpl.html
+  
+	IceTheme - http://wwww.icetheme.com
+  
+---------------------------------------------------------------- */
+
+/* 
+DO NOT DELETE THIS LINE
+Necessary to check if StyleSheet has loaded  */
+#dummy-element{width:2px;} 
+
+
+.ice-megamenu-toggle a {
+	background:#7FC23E} 
+	
+	.ice-megamenu-toggle a:hover {
+		background: #99CE64}		
+
+@media (max-width: 979px) {
+	
+	#icemegamenu > li > ul.icesubMenu {
+		background: #3E930F}		
+}
+
+@media (max-width: 767px) {
+	
+
+}
+		

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+    <name>Xmap Package</name>
+    <packagename>xmap</packagename>
+    <version>2.3.3</version>
+    <creationDate>2013-05-04</creationDate>
+	<author>Vladimir Maidanichenko</author>
+	<authorEmail>support@joomlamaster.org.ua</authorEmail>
+	<authorUrl>joomlamaster.org.ua</authorUrl>
+    <copyright>Copyright (C) 2005 - 2013 Open Source Matters.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<url>http://joomlamaster.org.ua</url>
+	<packager>Vladimir Maidanichenko</packager>
+	<packagerurl>joomlamaster.org.ua</packagerurl>
+	<description>The Site Map generator for Joomla 2.5 and more!</description>
+    <files folder="packages">
+        <file type="component" id="com_xmap">com_xmap.zip</file>
+        <file type="plugin" id="com_content" group="xmap">plg_com_content.zip</file>
+        <file type="plugin" id="com_kunena" group="xmap">plg_com_kunena.zip</file>
+        <file type="plugin" id="com_sobipro" group="xmap">plg_com_sobipro.zip</file>
+        <file type="plugin" id="com_mtree" group="xmap">plg_com_mtree.zip</file>
+        <file type="plugin" id="com_virtuemart" group="xmap">plg_com_virtuemart.zip</file>
+        <file type="plugin" id="com_weblinks" group="xmap">plg_com_weblinks.zip</file>
+        <file type="plugin" id="com_k2" group="xmap">plg_com_k2.zip</file>
+    </files>
+</extension>

@@ -1,0 +1,373 @@
+/* -------------------------------------------------------------
+	
+	iProperty Extension Styles Overwrites
+	
+	© IceTheme 2013
+	
+---------------------------------------------------------------- */
+
+/* Bootrap Overwites 
+---------------------------------------------------------------- */
+
+
+
+
+/* General Overwrites
+---------------------------------------------------------------- */
+
+/* layout */
+body .ip-property-header { float:left}
+
+body .ip-pagination-results { margin-top: 20px; color: #999; font-size: 13px;}
+
+body .ip-overview-row { padding: 0 0 40px;}
+
+body #ip-searchfilter-wrapper { background: #D8DEC2; border-color: none;}
+	body #ip-searchfilter-wrapper input,
+	body #ip-searchfilter-wrapper select { box-shadow:none; outline:none;}
+		
+	body .ip-featured-icon { margin-right:0; margin-top:5px;}
+
+	body .ip-overview-title a {
+		font-family:"Droid Sans", Arial, Helvetica, sans-serif;
+		font-size:20px;
+		line-height:28px;}
+		
+		body .ip-overview-title em {
+			display: block;
+			padding: 7px 0;}
+				
+
+	body .ip-overview-row .ip-overview-short-desc { margin-bottom:5px;}
+	
+	body .ip-overview-row .small { color:#999; font-size:13px; margin-bottom: 5px;}
+	
+	body .ip-overview-row .ip-overview-catcontainer a { display:inline-block; padding-right:15px; font-size:13px; float: left;}
+		body .ip-overview-row .ip-overview-catcontainer .ip-cat-icon-divider { line-height:20px;}
+
+
+.property_footer { font-size:13px; color:#999}
+
+body .ip-proplist div.pagination { text-align:center; color:#999; margin-bottom:25px;}
+	body .ip-proplist div.pagination ul li { margin-bottom: 5px; display: inline-block;}
+		body .ip-proplist div.pagination ul li.disabled { display:none}
+
+
+body #propdescription .ip-sidecol,
+body .agent-list-details li  { word-break:break-all}
+
+
+body .ip-after-property #plg_ip_facebook {
+	float:left;
+	margin-top: 25px;}
+	
+body .ip-after-property .ip-plusone-bottom {
+	float: right;
+	margin: 20px 0 0;}
+	
+body .ip-after-property .ip-tweet-this {
+	float:right;
+	position:relative!important;
+	top: 0!important;
+	right: 0!important;
+	margin-top: 23px;}
+
+
+.ip-galleryplug-img.thumbnail {
+	margin:0 10px 10px 0}
+
+
+/* advanced search */
+body .ip-adv-slidecontainer { margin-bottom:30px; text-align: center;}
+	body .ip-adv-slidecontainer label { padding-top: 10px; margin-bottom: 0;}
+
+
+
+/* modules general */
+body .ip-mod-title {
+	font-family:"Droid Sans", Arial, Helvetica, sans-serif;
+	font-size:18px;
+	line-height:26px;
+	display:block;}
+	
+	
+	
+body .ip-mod-desc em {
+	font-style: italic;
+	color:#999;
+	font-size: 13px;
+	margin-bottom: 6px;
+	display: block}
+	
+	
+	
+/* thumbs */
+body .ip-mod-thumb {
+	margin-bottom:12px;}
+	
+	body .ip-mod-thumb a {
+		display:block;
+		overflow:hidden}
+		
+		body .ip-mod-thumb img.thumbnail {
+			border:none;
+			border-radius:0;
+			box-shadow:none;
+			padding:0;
+			margin:0;}
+			
+			body .ip-mod-thumb a:hover img.thumbnail {
+				-webkit-transform:scale(1.2);
+				-moz-transform:scale(1.2);
+				-o-transform:scale(1.2);
+				transform:scale(1.2)}
+		
+	
+	
+	
+body .ip-mod-desc {
+	width:auto!important;
+	margin: 0!important;} 
+
+body img.img-polaroid {
+	background:#EEF2DA;
+	padding:5px;
+	border-color:#DEE2C9}
+
+
+
+
+/* prices */
+body .ip-mod-price,
+body .ip-overview-price {
+	font-family:"Open Sans", Arial, Helvetica, sans-serif;
+	color:#c16e23;
+	font-size: 22px;
+	text-align: center;
+	float: none;}
+	body .ip-mod-price .ip-slashprice,
+	body .ip-overview-price .ip-slashprice {
+		color: #999;
+		display: block;
+		margin-bottom: 8px;
+		font-size: 16px;}
+	
+	body .ip-mod-price .ip-newprice,
+	body .ip-overview-price .ip-newprice {
+		font-size: 22px;}
+
+	
+	/* prices on the details page */
+	.ip-mainheader .ip-detail-price {
+		font-family:"Open Sans", Arial, Helvetica, sans-serif;
+		color:#c16e23;
+		font-size: 22px;
+		display: block;
+		line-height: 28px;
+		padding-bottom: 6px;
+		padding-bottom: 10px;}
+		
+		.ip-mainheader .ip-detail-price .ip-slashprice  {
+			color: #999;
+			margin-bottom: 8px;
+			font-size: 16px;}
+			
+		.ip-mainheader .ip-detail-price .ip-newprice {	
+			font-size: 22px;}
+
+
+
+
+
+
+/*  Modules
+------------------------------------------------------------- */
+
+/* IP Quick Search Module */
+#ip_search {
+	margin-bottom:60px;}
+	
+	#ip_search > .container {
+		text-align:center;
+		background-color:#D8DEC2;
+		background-image:url(../images/ip_search_bg_right.png), url(../images/ip_search_bg_left.png);
+		background-position:left bottom, right top;
+		background-repeat:no-repeat, no-repeat;}			
+			
+		#ip_search .moduletable {}
+		
+			#ip_search .moduletable h3.mod-title {
+				display:inline-block;
+				padding:15px 0 0;
+				text-align:center;
+				border-bottom:5px solid #C4CCA5;
+				font-family:"Coming Soon",Courier, monospace;
+				font-size:30px;
+				color:#5e6544}	
+				
+				#ip_search > .container .ip_qsmod_holder {
+					margin:20px auto;
+					width: 680px;}
+					
+					#ip_search > .container .ip_qsmod_holder .controls {
+						display:inline-block;
+						margin:0 5px;}
+						
+						
+					#ip_search > .container	input[type="text"],
+					#ip_search > .container select {
+						border-radius:7px;
+						border-color:#CDD5B1;
+						color:#999;
+						outline:none;
+						box-shadow:none;}
+						
+						#ip_search > .container	input[type="text"]:focus,
+						#ip_search > .container select:focus {
+							color:#444;
+							border-color:#B7C38F;}
+						
+					#ip_search > .container	input[type="text"] {
+						padding:6px 10px;}
+						
+					#ip_search > .container select {
+						color:#999;
+						height: 34px;
+						line-height: 34px;
+						padding: 7px;}
+
+
+						#ip_search input[name="filter_keyword"],
+						#ip_search select[name="filter_stype"],
+						#ip_search select[name="filter_cat"] {
+							width: 200px;}
+
+
+
+
+
+	body #ip_search .btn {
+		padding: 8px 0;
+		font-size:15px;
+		text-shadow:1px 1px 1px rgba(0,0,0,.3);
+		min-width: 100px;
+		box-shadow: none;
+		border:none;
+		margin:20px 0;
+		-webkit-transition:all .2s ease-out;
+		-moz-transition:all .2s ease-out;
+		-o-transition:all .2s ease-out; 
+		transition:all .2s ease-out;}							 
+						 
+	body #ip_search	.btn-group > .btn:first-child {
+		border-bottom-left-radius:10px;
+		border-top-left-radius:10px;}
+		
+	body #ip_search	.btn-group > .btn:last-child, .btn-group > .dropdown-toggle {
+		border-bottom-right-radius:10px;
+		border-top-right-radius:10px;}		
+			 
+	body #ip_search .btn-info {
+		background-color:#adb28f;
+		background-image: none;}
+		body #ip_search .btn-info:hover {
+			background-color:#ADB28F;}
+		
+	body #ip_search .btn-primary {
+		background-color:#c87122;
+		background-image: none;}
+		body #ip_search .btn-primary:hover {
+			background-color:#DB7D29;}
+
+								
+/* Featured agents */
+.ip-featuredagents-holder br { display:none}
+
+.ip-featuredagents-holder em {}
+	
+	
+/* IP Promo Module */
+.ip_carousel {
+	position:relative;
+	margin-bottom:40px;}
+	
+	.ip_carousel .slides > div { float:left;}
+	
+	.ip_carousel ol.flex-control-nav {
+		margin:-5px -5px 0 -10px;
+		position:relative;
+		background-color:#F3F5E9;
+		padding: 8px 10px 2px;}	
+		
+		.ip_carousel ol.flex-control-nav li {
+			margin:0 4px;}
+		
+			.ip_carousel ol.flex-control-nav li a {
+				background:#d4d9b8;
+				box-shadow:none;
+				width:12px;
+				height:12px;}	
+			
+				.ip_carousel ol.flex-control-nav li a:hover {
+					background: #5eab1f;}
+		
+				.ip_carousel ol.flex-control-nav li a.flex-active { 
+					background: #5eab1f;}
+			
+			
+			 .ip_carousel a.ip-mod-title {}
+				
+				.ip_carousel .ip-mod-desc {}
+				
+					.ip_carousel .ip-mod-desc > em {}
+	
+					.ip_carousel .ip-mod-desc > p{}
+					
+					.ip_carousel .ip-mod-price {min-height:55px;}
+						
+/* IP City Links */	
+.ip-city-links {
+	height:auto !important;}
+	
+ul.ip-city-links-ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;}
+	
+	ul.ip-city-links-ul li {
+		margin:0;
+		padding:0;}
+
+		ul.ip-city-links-ul li a {
+			display:block;
+			padding:0 5px;
+			border-bottom:1px solid #E8EBDA;
+			-webkit-transition:all .2s ease-out;
+			-moz-transition:all .2s ease-out;
+			-o-transition:all .2s ease-out; 
+			transition:all .2s ease-out;
+			line-height:30px;}
+			
+			ul.ip-city-links-ul li a:hover {
+				text-decoration:none;
+				background:#E8EBDA}
+
+
+/* Featured Companies */
+body .ip-featuredcompanies-holder .span3 {
+	margin-right:10px;}
+	
+	body .row-fluid .ip-featuredcompanies-holder  {
+		margin-bottom:15px;}
+
+/* add this plugin */
+body .addthis_toolbox { line-height:20px;}
+
+/* pinterest plugin */
+body .ip-pinterest { top:7px!important;}
+
+
+
+/* random agents */
+body .ip-randomagent-holder .ip-mod-desc {
+	float:left; margin-right:10px;}

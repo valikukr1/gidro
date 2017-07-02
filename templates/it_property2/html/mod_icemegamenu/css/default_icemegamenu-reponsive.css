@@ -1,0 +1,143 @@
+/**
+ * IceMegaMenu Extension for Joomla 3.0 By IceTheme
+ * 
+ * 
+ * @copyright	Copyright (C) 2012 IceTheme.com. All rights reserved.
+ * @license		GNU General Public License version 2
+ * 
+ * @Website 	http://www.icetheme.com/Joomla-Extensions/icemegamenu.html
+ *
+ */
+
+
+  
+@media (min-width: 1200px) {
+	
+	.icemegamenu > ul > li {
+		margin-right:8px;}
+		
+		.icemegamenu > ul > li >  a.iceMenuTitle {
+			font-size:18px;}
+			
+			.icemegamenu > ul > li  a.iceMenuTitle > span.icemega_title {
+				padding-left:25px;
+				padding-right:15px;}
+			
+  			
+
+}
+
+
+
+@media (max-width: 979px) {
+	
+	.collapse {
+	  overflow: hidden!important;}
+	  
+		
+	.collapse.in { margin-bottom: 45px;}
+	
+	div.container > div.icemegamenu {  width:100%; z-index: 999; margin-bottom: 40px; }
+		div.container > div.icemegamenu .icemegamenu { width:100%; margin:15px 0 0; }
+		div.container > div.icemegamenu .icemegamenu.in { padding-bottom: 30px}	
+	
+	.icemegamenu > ul { background:none; margin-top:0; margin-bottom:30px; width:100% }
+
+  .ice-megamenu-toggle { display:block }
+  .icemegamenu > ul > li,
+  .icemegamenu > ul > li.active,
+   .icemegamenu > ul > li:hover { clear:both; width: 100%; margin: 0; padding-left:0; background:none!important; }
+   
+   .icemegamenu > ul > li.active::before,
+   .icemegamenu > ul > li.active::after { display:none}
+   
+   .icemegamenu > ul > li a.iceMenuTitle > span.icemega_title { border-radius:0; margin:0; padding:10px 5px; background:none!important}
+  		ul.icesubMenu > li a.iceMenuTitle span { padding-top:3px!important; padding-bottom:3px!important}
+  
+			.icemegamenu > ul > li:hover > a.iceMenuTitle span.icemega_title:after,
+			 .icemegamenu > ul > li.active > a.iceMenuTitle span.icemega_title:after {
+				 display:none}
+			
+			
+	#icemegamenu > li > ul.icesubMenu {
+		float: left;
+		opacity: 1;
+		position: relative;
+		padding:0;
+		top: 0!important;
+		left: 0!important;
+		visibility: visible;
+		width: 100% !important;
+		background: #3E930F;
+		margin:0}
+		
+		
+			
+	#icemegamenu > li > ul.icesubMenu .iceCols{ width:100%!important;}
+	#icemegamenu > li > ul.icesubMenu li{ width:100%!important; overflow:hidden}
+		
+	#icemegamenu .parent .icemodules{	}
+	
+	ul.icesubMenu{border:none}
+	
+	ul.icesubMenu li.parent{background:none;}		
+	
+	
+	.icemegamenu > ul > li a.iceMenuTitle{
+		height:auto;
+		padding: 0 10px;
+		border-bottom:1px dotted rgba(255, 255, 255, .2)!important}
+		
+	
+	ul.icesubMenu > li a.iceMenuTitle{
+		font-size:12px;
+		margin:0px;
+		padding: 0 0 0 38px;
+		background-position:22px 8px}
+	
+		
+	
+		#icemegamenu > li > ul.icesubMenu li > ul{
+			float: left;
+			opacity: 1;
+			position: relative;
+			top: 0!important;
+			visibility: visible;
+			width: 100% !important;
+			left: 0;		
+			margin:0px;
+			padding:0;
+			border:none;
+			background:none;}
+			
+			/* level 2 */
+			ul.sub_level_2 li > a.iceMenuTitle {
+				padding-left: 55px!important;
+				background-position: 39px 9px!important;}
+				
+			/* level 3 */
+			ul.sub_level_3 li > a.iceMenuTitle {
+				padding-left: 75px!important;
+				background-position: 60px 10px!important;}
+				
+					
+
+		/* hide modules */
+		.icesubMenu .icemega_cover_module {display:none}
+		
+		.collapse.in .icesubMenu .icemega_cover_module { display:block;}
+		
+}
+
+
+@media (max-width: 480px) {
+	
+.icemegamenu > ul { margin-top:0; }
+	
+	.icemegamenu {
+		text-align:left}
+	
+}
+
+
+
